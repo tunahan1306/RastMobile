@@ -1,0 +1,111 @@
+input:focus {
+    outline: none;
+}
+
+::ng-deep .dx-data-row .cell-highlighted {
+    height:66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    vertical-align: middle !important; 
+}
+
+ 
+::ng-deep .dx-header-row .cell-highlighted {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+height: 63.04px;
+color: #000000;
+vertical-align: middle !important; 
+}
+
+
+
+.selectbox-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .selectbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px;
+    color: #333;
+    font-size: 14px;
+    width: 90px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 1px solid #CFC0FF;
+    border-radius: 39px;
+    font-size: 10px;
+  }
+  
+  .selectbox-icons {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+  }
+  
+  .selectbox-icons i {
+    color: purple;
+    font-size: 12px;
+  }
+  .selectbox:focus{
+    outline: none;
+  }
+
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .pagination-icons {
+    margin: 0 8px;
+  }
+  
+  .page-input {
+    width: 21px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .page-info{
+    margin: 0 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #C9C9C9;
+  }
+  .page-number {
+    margin: 0 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #744BFC;
+  }
