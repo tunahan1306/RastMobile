@@ -46,7 +46,7 @@
    ``` 
 2. Install NPM packages
     ```sh
-    cd Yazlab2Project3Cli
+    cd RastMobileCli
     ```
     ```sh
     npm install
